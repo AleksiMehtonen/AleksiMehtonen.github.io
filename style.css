@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.toggle {
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.figmasscontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; /* space between images */
+  width: 100%;
+}
+
+.figmass {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* keeps images nicely cropped */
+  background-color: #000;
+}
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.list {
+  padding-left: 2.5rem;
+}
+
+header {
+  text-align: center;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.subtitle {
+  color: #555;
+}
+
+section {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+}
+
+.project {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.footer {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
